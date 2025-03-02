@@ -24,10 +24,10 @@ body {
 
 .custom-gradient {
     background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-    --tw-gradient-from: #7e22ce var(--tw-gradient-from-position);
+    --tw-gradient-from: #636363 var(--tw-gradient-from-position);
     --tw-gradient-to: rgba(126, 34, 206, 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     --tw-gradient-to: rgba(220, 38, 38, 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), #2657dc var(--tw-gradient-via-position), var(--tw-gradient-to);
-    --tw-gradient-to: #ca0460 var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #76777a var(--tw-gradient-via-position), var(--tw-gradient-to);
+    --tw-gradient-to: #414141 var(--tw-gradient-to-position);
 }

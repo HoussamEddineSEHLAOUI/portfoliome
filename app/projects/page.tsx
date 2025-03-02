@@ -6,7 +6,7 @@ import Footer from '../components/ui/Footer'
 
 const projects = () => {
   return (
-    <div>
+    <div >
       <Navbar/>
       <IntroProject></IntroProject>
       <ProjectList></ProjectList> 

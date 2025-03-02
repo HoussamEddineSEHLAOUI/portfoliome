@@ -6,7 +6,7 @@ import mainProjects from '../../Data';
 
 const ProjectList = () => {
   return (
-    <div className='md:pl-48 md:pr-48 pl-2 pr-2'>
+    <div className='md:pl-48 md:pr-48 pl-2 pr-2 pb-2 md:pt-10'>
         <div className='flex align-middle md:justify-start flex-wrap '>
             {mainProjects.map((project) => (
                 <ProjectCared 

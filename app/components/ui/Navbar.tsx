@@ -3,8 +3,8 @@ import ButtonModeDark from "./ButtonModeDark";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-transparent absolute top-0 text-white ">
-      <div className="navbar-start">
+    <div className="navbar bg-transparent absolute top-0 text-white">
+      <div className="navbar-start md:ml-44">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <label htmlFor="my-drawer" className="drawer-button">
@@ -58,7 +58,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end md:mr-44">
         <ButtonModeDark></ButtonModeDark>
       </div>
     </div>
