@@ -1,4 +1,3 @@
-
 const mainProjects = [
     {
       id: 1,
