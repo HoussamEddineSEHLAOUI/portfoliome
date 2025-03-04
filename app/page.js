@@ -7,7 +7,6 @@ import MainServices from './components/ui/MainServices'
 import ComingSoon from './components/modules/comingSoon/ComingSoon'
 
 
-
 export default function Home() {
   return (
     <main>
