@@ -69,9 +69,7 @@ export default function Home() {
           Coming Soon
         </h1>
         
-        <p className="text-xl md:text-2xl mb-12">
-          We're working hard to bring you something amazing. Stay tuned!
-        </p>
+        <p className="text-xl md:text-2xl mb-12">We&apos;re working hard to bring you something amazing. Stay tuned!</p>
         
         {loading ? (
           <div className="text-xl">Loading countdown...</div>
