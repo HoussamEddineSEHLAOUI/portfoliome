@@ -104,7 +104,7 @@ export default function Home() {
       </main>
       
       <footer className="w-full max-w-4xl mx-auto mt-auto pt-8 text-center">
-        <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Sehlaoui houssam eddine . All rights reserved.</p>
       </footer>
     </div>
   );
