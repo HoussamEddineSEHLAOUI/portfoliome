@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonModeDark from "./ButtonModeDark";
+import { FaUser, FaTools, FaProjectDiagram, FaEnvelope, FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -30,12 +30,14 @@ const Navbar = () => {
               {/* Page content here */}
               
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side z-20">
               <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
               <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                 {/* Sidebar content here */}
-                <li><a>Sidebar Item 1</a></li>
-                <li><a>Sidebar Item 2</a></li>
+                <li><a href="#about"><FaUser className="inline mr-2" />About</a></li>
+                <li><a href="#skills"><FaTools className="inline mr-2" />Skills</a></li>
+                <li><a href="#projects"><FaProjectDiagram className="inline mr-2" />Projects</a></li>
+                <li><a href="#contact"><FaEnvelope className="inline mr-2" />Contact</a></li>
               </ul>
             </div>
           </div>
@@ -59,7 +61,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end md:mr-44">
-        <ButtonModeDark></ButtonModeDark>
+        {/* <ButtonModeDark></ButtonModeDark> */}
       </div>
     </div>
   );

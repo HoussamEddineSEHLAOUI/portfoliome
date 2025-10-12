@@ -1,11 +1,11 @@
 import React from "react";
 
-const ServiceCard = ({name, discription}) => {
+const ServiceCard = ({name, discription, url}) => {
   return (
-    <div className="card bg-base-100 w-96 shadow-sm m-5 border">
-      <figure>
+    <div className="card bg-base-100 md:w-96  shadow-sm md:m-5 m-2 border">
+      <figure className="md:w-[350px] w-[315px] md:w-[400px] h-[200px] md:h-[250px]">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          src={url}
           alt="Shoes"
         />
       </figure>

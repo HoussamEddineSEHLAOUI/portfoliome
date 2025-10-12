@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../components/ui/Navbar';
 import Footer from '../components/ui/Footer';
-import IntroAbout from '../components/modules/about/IntroAbout';
+import IntroPage from '../components/ui/IntroPage';
 import AboutMe from '../components/modules/about/AboutMe';
 
 const about = () => {
   return (
     <>
       <Navbar/>
-      <IntroAbout/>
+      <IntroPage title="About me"></IntroPage>
       <AboutMe/>
       <Footer/>
     </>
