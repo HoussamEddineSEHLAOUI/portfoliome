@@ -12,6 +12,13 @@
 /.next/
 /out/
 
+# cloudflare / opennext
+/.open-next/
+/.worker-next/
+/.wrangler/
+AGENTS.md
+CLAUDE.md
+
 # production
 /build
 
