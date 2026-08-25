@@ -1,6 +1,9 @@
 
 main = ".worker-next/index.mjs"
-name="hellomhoussam"
+name = "hellomhoussam"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
-experimental_assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+
+[assets]
+directory = ".worker-next/assets"
+binding = "ASSETS"
