@@ -24,7 +24,6 @@ export const education = {
   year: '2022',
   subjects: ['Data Structures', 'Algorithms', 'DBMS', 'Operating Systems', 'Computer Networks'],
   prep: {
-    school: 'Ibn Al Ghazi',
     note: 'Preparatory classes',
   },
 }

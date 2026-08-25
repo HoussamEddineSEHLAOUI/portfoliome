@@ -18,9 +18,7 @@ export default function EducationPost() {
           ))}
         </div>
 
-        <p className="mt-4 border-t border-hairline pt-3 text-sm text-muted">
-          Preparatory classes — <span className="text-white/80">{education.prep.school}</span>
-        </p>
+        <p className="mt-4 border-t border-hairline pt-3 text-sm text-muted">{education.prep.note}</p>
       </article>
     </Reveal>
   )
