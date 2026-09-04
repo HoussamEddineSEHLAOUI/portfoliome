@@ -5,7 +5,7 @@ export const profile = {
   positioning: 'Software Engineer building systems for financial markets.',
   location: 'Casablanca, Morocco',
   status: 'Open to opportunities',
-  avatar: '/images/houssam.jpg',
+  avatar: '/images/houssam-avatar.webp',
   website: 'hellomhoussam.com',
   email: 'houssameddinesehlaoui@gmail.com',
   github: 'https://github.com/HoussamEddineSEHLAOUI',

@@ -14,6 +14,9 @@ module.exports = {
         primary: {
           DEFAULT: '#145BFF',
           dark: '#0B2A66',
+          // Lighter tint used for small/normal-weight text on dark backgrounds.
+          // #145BFF fails WCAG AA (4.5:1) at text sizes; this passes on bg/surface/navy.
+          text: '#5B8DFF',
         },
         muted: '#8B95A7',
         hairline: 'rgba(255,255,255,0.08)',
@@ -43,9 +46,19 @@ module.exports = {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.4' },
         },
+        floatBounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5px)' },
+        },
+        fadeInUp: {
+          from: { opacity: '0', transform: 'translateY(16px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       animation: {
         'pulse-soft': 'pulseSoft 2.4s ease-in-out infinite',
+        'float-bounce': 'floatBounce 1.1s ease-in-out infinite',
+        'fade-in-up': 'fadeInUp 0.5s cubic-bezier(0.22,1,0.36,1) both',
       },
     },
   },

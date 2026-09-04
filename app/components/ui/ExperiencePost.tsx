@@ -27,9 +27,9 @@ export default function ExperiencePost({ experience }: { experience: Experience 
         }`}
       >
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-          <span className="font-mono text-xs uppercase tracking-wide text-primary">{company}</span>
+          <span className="font-mono text-xs uppercase tracking-wide text-primary-text">{company}</span>
           {current && (
-            <span className="rounded-pill border border-primary/25 bg-primary/10 px-2 py-0.5 text-[10px] font-mono uppercase tracking-wide text-primary">
+            <span className="rounded-pill border border-primary/25 bg-primary/10 px-2 py-0.5 text-[10px] font-mono uppercase tracking-wide text-primary-text">
               Current
             </span>
           )}

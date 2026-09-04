@@ -16,7 +16,7 @@ export default function ProjectPost({ project, delay = 0 }: { project: Project; 
             <p className="mt-1 text-sm text-muted">{description}</p>
           </div>
           {metric && (
-            <span className="shrink-0 rounded-pill border border-primary/25 bg-primary/10 px-2.5 py-1 font-mono text-[11px] text-primary">
+            <span className="shrink-0 rounded-pill border border-primary/25 bg-primary/10 px-2.5 py-1 font-mono text-[11px] text-primary-text">
               {metric}
             </span>
           )}

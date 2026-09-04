@@ -2,11 +2,10 @@ import Image from 'next/image'
 import { FiMapPin, FiArrowRight } from 'react-icons/fi'
 import { profile } from '@/app/data/profile'
 import TechnologyTag from './TechnologyTag'
-import Reveal from './Reveal'
 
 export default function ProfileHeader() {
   return (
-    <Reveal className="pt-10 md:pt-14">
+    <div className="animate-fade-in-up pt-10 md:pt-14">
       <div className="flex flex-col items-center text-center">
         <Image
           src={profile.avatar}
@@ -68,6 +67,6 @@ export default function ProfileHeader() {
           ))}
         </div>
       </div>
-    </Reveal>
+    </div>
   )
 }

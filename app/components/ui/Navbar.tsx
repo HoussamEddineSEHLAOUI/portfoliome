@@ -50,9 +50,9 @@ export default function Navbar() {
         scrolled ? 'border-b border-hairline bg-bg/70 backdrop-blur-md' : 'border-b border-transparent bg-transparent'
       }`}
     >
-      <nav className="mx-auto flex h-16 max-w-feed items-center justify-between px-4 md:px-8">
-        <a href="#home" className="flex items-center gap-2.5" aria-label="Houssam Eddine Sehlaoui, home">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border border-hairline bg-primary/10 font-mono text-xs font-semibold text-primary">
+      <nav aria-label="Primary" className="mx-auto flex h-16 max-w-feed items-center justify-between px-4 md:px-8">
+        <a href="#home" className="flex items-center gap-2.5" aria-label="HS, Houssam Eddine Sehlaoui — home">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full border border-hairline bg-primary/10 font-mono text-xs font-semibold text-primary-text">
             HS
           </span>
           <span className="hidden text-sm font-medium text-white sm:inline">Houssam</span>

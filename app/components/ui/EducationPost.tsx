@@ -6,7 +6,7 @@ export default function EducationPost() {
   return (
     <Reveal>
       <article className="rounded-card border border-hairline bg-surface p-5 md:p-6">
-        <p className="font-mono text-[11px] uppercase tracking-wider text-primary">{education.heading}</p>
+        <p className="font-mono text-[11px] uppercase tracking-wider text-primary-text">{education.heading}</p>
         <h3 className="mt-1.5 text-base font-semibold text-white md:text-lg">{education.degree}</h3>
         <p className="mt-0.5 text-sm text-muted">
           {education.school} · {education.location} · {education.year}

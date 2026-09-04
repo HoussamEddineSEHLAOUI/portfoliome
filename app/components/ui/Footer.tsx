@@ -9,7 +9,7 @@ export default function Footer() {
           <p className="text-sm text-muted">{profile.role}</p>
         </div>
         <p className="font-mono text-xs text-muted">{profile.website}</p>
-        <nav className="flex items-center gap-2 text-sm text-muted">
+        <nav aria-label="Social links" className="flex items-center gap-2 text-sm text-muted">
           <a href={profile.github} target="_blank" rel="noopener noreferrer" className="transition-colors duration-200 hover:text-primary">
             GitHub
           </a>
